@@ -27,18 +27,6 @@ const Clients = () => {
                       </p>
                     </div>
                   </div>
-
-                  <div className="flex self-end items-center gap-2">
-                    {Array.from({ length: 5 }, (_, index) => {
-                      return (
-                        <img
-                          key={index}
-                          src="assets/star.png"
-                          className="w-5 h-5"
-                        ></img>
-                      );
-                    })}
-                  </div>
                 </div>
               </div>
             </article>
