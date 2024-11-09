@@ -1,11 +1,16 @@
 import React from "react";
 
 const Footer = () => {
+  const date = new Date().getFullYear();
+
   return (
     <section className="c-space pt-7 pb-3 border-t border-black-300 flex justify-between items-center flex-wrap gap-5">
       <div className="text-white-500 flex gap-2">
-        <p>© 2021 Designed and developed by</p>
-        <a></a>
+        <div>
+          © {date}
+          <span className="font-normal text-neutral-400"> Swapnil Sachan</span>,
+          inspired by JSMastery
+        </div>
       </div>
 
       <div className="flex gap-3">

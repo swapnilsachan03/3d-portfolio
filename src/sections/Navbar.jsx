@@ -25,9 +25,9 @@ const Navbar = () => {
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a
             href="/"
-            className="text-neutral-400 font-bold text-xl hover:text-white transition-colors"
+            className="name-logo rounded-sm font-bold text-xl px-4 py-1.5 text-neutral-800 hover:text-black"
           >
-            Swapnil
+            स्वप्निल's
           </a>
 
           <button
